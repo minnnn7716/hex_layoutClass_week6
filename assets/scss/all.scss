@@ -1,0 +1,26 @@
+// ------ 套件
+// cdn: google font
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Yeseva+One&display=swap");
+// npm: bootstrap
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./heplers/variables";
+@import "../../node_modules/bootstrap";
+
+// ------ base
+@import "./base/base";
+@import "./base/fontStyle";
+
+// ------ helper
+@import "./heplers/utilities";
+
+// ------ component
+@import "./components/title";
+@import "./components/card";
+@import "./components/tag";
+@import "./components/pagination";
+
+// ------ layout
+@import "./layout/nav";
+
+// ------ page
+@import "./pages/index";

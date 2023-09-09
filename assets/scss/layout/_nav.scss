@@ -1,0 +1,29 @@
+.navbar {
+  &-brand img {
+    width: 40px;
+
+    @include media-breakpoint-up(md) {
+      width: 53px;
+    }
+  }
+
+  &-search {
+    height: 39px;
+    margin: 0 25px;
+
+    @include media-breakpoint-up(md) {
+      height: 55px;
+    }
+
+    .icofont-search-1 {
+      font-size: 14px;
+
+      @include media-breakpoint-up(md) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  --bs-navbar-color: $dark;
+  --bs-navbar-hover-color: #9c9e18;
+}

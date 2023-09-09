@@ -1,0 +1,12 @@
+.page-link {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.page-item:not(:last-child) {
+  margin-right: 8px;
+}

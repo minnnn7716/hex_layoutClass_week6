@@ -1,0 +1,157 @@
+// padding, margin
+.pt-100 {
+  padding-top: 100%;
+}
+
+.mt-minus-2 {
+  margin-top: -2px;
+}
+
+@include media-breakpoint-up(md) {
+  .ms-md-minus-2 {
+    margin-left: -2px;
+  }
+}
+
+// position
+.position-full {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.z-index-5 {
+  z-index: 5;
+}
+
+// height, fit
+.object-fit {
+  object-fit: cover;
+}
+
+.h-fill {
+  height: -webkit-fill-available;
+}
+
+// transform
+.rotate-2deg {
+  transform: rotate(2deg);
+}
+
+.rotate-minus-2deg {
+  transform: rotate(-2deg);
+}
+
+// font-size
+.fs-1 {
+  font-size: $h1-font-size !important;
+}
+
+.fs-2 {
+  font-size: $h2-font-size !important;
+}
+
+.fs-3 {
+  font-size: $h3-font-size !important;
+}
+
+.fs-4 {
+  font-size: $h4-font-size !important;
+}
+
+.fs-5 {
+  font-size: $h5-font-size !important;
+}
+
+.fs-6 {
+  font-size: $h6-font-size !important;
+}
+
+@include media-breakpoint-up(md) {
+  .fs-md-1 {
+    font-size: $h1-font-size !important;
+  }
+
+  .fs-md-2 {
+    font-size: $h2-font-size !important;
+  }
+
+  .fs-md-3 {
+    font-size: $h3-font-size !important;
+  }
+
+  .fs-md-4 {
+    font-size: $h4-font-size !important;
+  }
+
+  .fs-md-5 {
+    font-size: $h5-font-size !important;
+  }
+
+  .fs-md-6 {
+    font-size: $h6-font-size !important;
+  }
+
+  .fs-md-7 {
+    font-size: $normal1-font-size !important;
+  }
+
+  .fs-md-8 {
+    font-size: $normal2-font-size !important;
+  }
+
+  .fs-md-9 {
+    font-size: $normal3-font-size !important;
+  }
+
+  .fs-md-10 {
+    font-size: $normal4-font-size !important;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .fs-lg-1 {
+    font-size: $h1-font-size !important;
+  }
+
+  .fs-lg-2 {
+    font-size: $h2-font-size !important;
+  }
+
+  .fs-lg-3 {
+    font-size: $h3-font-size !important;
+  }
+
+  .fs-lg-4 {
+    font-size: $h4-font-size !important;
+  }
+
+  .fs-lg-5 {
+    font-size: $h5-font-size !important;
+  }
+
+  .fs-lg-6 {
+    font-size: $h6-font-size !important;
+  }
+
+  .fs-lg-7 {
+    font-size: $normal1-font-size !important;
+  }
+
+  .fs-lg-8 {
+    font-size: $normal2-font-size !important;
+  }
+
+  .fs-lg-9 {
+    font-size: $normal3-font-size !important;
+  }
+
+  .fs-lg-10 {
+    font-size: $normal4-font-size !important;
+  }
+  .g-lg-6,
+  .gy-lg-6 {
+    --bs-gutter-y: 1.5rem;
+  }
+}

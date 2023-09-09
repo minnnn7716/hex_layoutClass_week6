@@ -1,0 +1,62 @@
+.index {
+  &-header {
+    &-banner {
+      min-height: 350px;
+      background: url("../images/event/13.jpg") 50% no-repeat;
+      background-size: cover;
+
+      @include media-breakpoint-up(lg) {
+        min-height: 518px;
+      }
+    }
+
+    &-list {
+      img {
+        width: 40px;
+
+        @include media-breakpoint-up(lg) {
+          width: 80px;
+        }
+      }
+    }
+  }
+
+  &-online {
+    &-imgContainer {
+      height: 158px;
+      background: url("../images/event/online.jpg") 50% 35% no-repeat;
+      background-size: cover;
+
+      @include media-breakpoint-up(md) {
+        height: 100%;
+      }
+    }
+  }
+
+  &-activity {
+    &-ticker {
+      letter-spacing: 1.6px;
+      @include media-breakpoint-up(md) {
+        letter-spacing: 3.2px;
+      }
+    }
+
+    &-tag {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-4deg);
+      z-index: 5;
+      font-weight: 700;
+      padding: 8px 16px;
+      background-color: $white;
+    }
+  }
+
+  &-contact {
+    &-iconContainer {
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
